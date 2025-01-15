@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Fondo azul */
+}
+
+header {
+    background-color: #b79486;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #ffeb3b; /* Color amarillo para el título */
+}
+
+nav {
+    background-color: #d9ccc6;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e91e63; /* Color rosa para los enlaces del menú */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid #000; /* Bordes para encuadrar las secciones */
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h3 {
+    color: #3f51b5; /* Color azul para los encabezados de sección */
+}
+
+section p {
+    color: #4caf50; /* Color verde para los párrafos */
+}
+
+section button {
+    background-color: #e91e63; /* Color rosa para el botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #b79486;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .copy {
+    display: block;
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
